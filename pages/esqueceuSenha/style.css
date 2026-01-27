@@ -1,0 +1,120 @@
+@font-face {
+
+    font-family: IpkissZF;
+    src: url('../../fonts/IpkissZF.ttf');
+
+}
+
+* {
+
+    font-family: 'IpkissZF';
+
+}
+
+* {
+
+    padding: 0%;
+    box-sizing: content-box;
+
+}
+
+body {
+    
+    color: yellow;
+    background-color: rgba(128, 0, 128, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    };
+
+
+#esqueceu-a-senha {
+
+    width: 90vw;
+    height: 60vh;
+
+    color: yellow;
+    background: purple;
+
+    justify-content: space-evenly;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+
+    padding: 20px;
+
+}
+
+#esqueceu-a-senha-main {
+
+    background-color: rgb(128, 190, 35);
+    border-radius: 15px;
+    border: solid purple;
+    width: 90vw;
+    height: 50vh;
+    font-size: 15px;
+    display: flex;
+
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+#email-de-recuperacao {
+
+    width: 550px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: purple;
+    padding: 10px;
+    color: yellow;
+    font-size: xx-large;
+}
+
+#botao-de-recuperacao{
+
+    flex-direction: column;
+   padding: 10px;
+   width: 200px;
+   align-items: center;
+  align-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: yellow;
+    color: purple;
+
+}
+
+#h1-titulo {
+
+    background-color: purple;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#h2-titulo2 {
+
+    background-color: yellow;
+    color: purple;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#paragrafo-esqueceu-senha {
+
+    background: purple;
+    color: yellow;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+    

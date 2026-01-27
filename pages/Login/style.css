@@ -1,0 +1,164 @@
+
+
+@font-face {
+    font-family: IpkissZF;
+    src: url('../../fonts/IpkissZF.ttf');
+}
+* {
+    font-family: 'IpkissZF';
+}
+
+* 
+{
+
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+body {
+    background-image: url(../../assets/pngtree-elegant-dark-purple-striped-wall-texture-image_13840909.png);
+    background-color: rgba(128, 0, 128, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+
+
+#container {
+    width: 90vw;
+    height: 90vh;
+
+    border-radius: 15px;
+    border: solid darkgreen 5px;
+
+    background-color: rgb(128, 190, 35);
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    
+    padding: 20px;
+}
+
+#container-esquerdo {
+    
+    background-color: black;
+}
+
+
+#container-direito {
+    flex: 1;
+    
+    background-image: url(../../assets/maskara.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border: solid darkgreen 5px;
+    display: none;
+    border-radius: 16px;
+}
+
+#uh-titulo{
+    
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+}
+
+#titulo{
+    padding: 10px;
+   color: purple;
+   background-color: rgb(231, 231, 53);
+   border-color: solid darkgreen 5px;
+   border-radius: 15px; 
+   justify-content: flex-start;
+   margin: 1%;
+   border-radius: 15px;
+   border: solid darkgreen 5px;
+}
+
+#email {
+    padding: 10px;
+    font-size: x-large;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: purple;
+}
+
+#senha {
+    padding: 10px;
+    font-size: x-large;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background: yellow;
+}
+
+#Mensagem-do-LOGIN {
+    padding: 10px;
+    background: rgb(231, 231, 53);
+    color: purple;
+    border-radius: 10px;
+    margin: 1%;
+    border: solid darkgreen 5px;
+}
+
+#titulo-2 {
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+    color: rgb(231, 231, 53);
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin: 1%;
+    border: solid darkgreen 5px;
+}
+
+#botao-confirmar{
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    padding: 1%;
+    border-radius: 15px;
+    background: purple;
+}
+
+#esqueceusenha {
+    padding: 1%;
+    font-size: xx-large;
+}
+
+#lembrar-senha {
+    padding: 1%;
+    color: purple;
+}
+
+#sem-conta {
+    font-size: 17px;
+    font-weight: 10px;
+    align-items: flex-end;
+    margin: 1%;
+    color: 231, 231, 53;
+}
+
+@media (min-width: 600px) {
+    #container-direito {
+
+        display: block;
+    }
+
+    #uh-titulo {
+        
+        display: flex;
+       
+    }
+}
