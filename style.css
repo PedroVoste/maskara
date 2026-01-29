@@ -13,50 +13,73 @@
 
 body {
 
+    
     background-image: url('assets/pngtree-elegant-dark-purple-striped-wall-texture-image_13840909.png');
     background-color: rgba(128, 0, 128, 0.548);
-    display: flex;
     min-height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
 }
+
+    
+
 
 #lista {
 
     border: solid green;
     border-radius: 15px;
     background: yellow;
-    display: flex;
     padding: 10%;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
     width: 150px;
-
-
+    
 }
 
 #titulo {
 
+    padding: 10px;
     text-align: center;
     background-color: yellow;
     color: purple;
     border: solid green;
     border-radius: 10px;
     margin: 1%;
+
 }
 
 #video-abertura {
+
     border: solid purple;
     border-radius: 20px;
-    border-width: 10px
+    border-width: 10px;
+    display: none;
+
 }
 
 #talvez-seja-footer {
+
     color: yellow;
     margin: 1%;
+
 }
+
+@media (min-width: 600px) {
+    #video-abertura {
+       
+        display: flex;
+    
+    }
+
+    
+}
+
+
